@@ -1,0 +1,19 @@
+/* layout fix */
+p.site-description.show{ display: none !important; }
+.site-main { max-width: 100% !important; }
+
+/* .elementor-widget-container */
+.elementor-widget-container h5{ display: none !important;}
+ul.product_list_widget { list-style: none; display: grid; grid-template-columns: auto auto auto; }
+ul.product_list_widget li{ padding-bottom: 20px; }
+.elementor-widget-container .product-title { width: 330px; font-size: 16px; float: left !important; text-transform: uppercase; }
+.elementor-widget-container span.woocommerce-Price-amount.amount { font-size: 14px; float: left !important; }
+@media only screen and (max-width: 600px) { ul.product_list_widget { grid-template-columns: auto; } }
+
+/* woocommerce product page */
+nav.woocommerce-breadcrumb { margin-left: 100px !important; text-decoration: underline; }
+section.related.products { padding: 40px; }
+.woocommerce-tabs.wc-tabs-wrapper { padding: 40px; }
+.woocommerce-product-details__short-description { padding-right: 120px; text-align: justify; }
+.woocommerce div.product form.cart .button { vertical-align: middle; float: left; height: 41px; }
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail { margin-bottom: 20px; }
